@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="debateclub" defaultIdMethod="native">
+  <!-- table definitions go here -->
+  <table name="tournament" phpName="Tournament">
+    <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="name" type="varchar" size="255" required="true" />
+    <column name="startdate" phpName="StartDate" type="date" required="true" />
+    <column name="enddate" phpName="EndDate" type="date" />
+    <column name="hostClub" phpName="HostClub" type="varchar" size="255" required="false" />
+  </table>
+</database>
+

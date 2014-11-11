@@ -1,0 +1,25 @@
+{
+    "propel": {
+        "database": {
+            "connections": {
+                "debateclub": {
+                    "adapter": "mysql",
+                    "classname": "Propel\Runtime\Connection\ConnectionWrapper",
+                    "dsn": "mysql:host=localhost;dbname=debateclub",
+                    "user": "root",
+                    "password": "C11h22.o12",
+                    "attributes": []
+                }
+            }
+        },
+        "runtime": {
+            "defaultConnection": "debateclub",
+            "connections": ["debateclub"]
+        },
+        "generator": {
+            "defaultConnection": "debateclub",
+            "connections": ["debateclub"]
+        }
+    }
+}
+
