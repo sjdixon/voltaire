@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<database name="debateclub" defaultIdMethod="native">
+<database name="debateclub" namespace="DebateClub" defaultIdMethod="native">
   <!-- table definitions go here -->
   <table name="tournament" phpName="Tournament">
     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
